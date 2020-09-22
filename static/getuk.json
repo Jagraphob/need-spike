@@ -1,0 +1,29 @@
+
+{
+  "requiredConsents": [
+    {
+      "consentCode": "CONSENT_TO_STORE",
+      "description": "Consent 1 description",
+      "required": false
+    },
+    {
+      "consentCode": "CONSENT_TO_USE",
+      "description": "[ the consent description to display to the customer ]",
+      "required": false
+    }
+  ],
+  "needsFields": [
+    {
+      "code": "MEDICALLY_DEPENDENT",
+      "description": "A domestic consumer who is dependent on mains electricity for [...]",
+      "isDisclaimerRequired": true,
+      "disclaimerText": "[ this is the disclaimer text to display to the user ]"
+    },
+    {
+      "code": "VULNERABLE",
+      "description": "For reasons of age, health or disability, the disconnection [...]",
+      "isDisclaimerRequired": true,
+      "disclaimerText": "[ this is the disclaimer text to display to the user ]"
+    }
+  ]
+}

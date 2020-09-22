@@ -1,0 +1,22 @@
+{
+  "requiredConsents": [],
+  "needsFields": [
+    {
+      "code": "MEDICALLY_DEPENDENT",
+      "isDisclaimerRequired": true,
+      "disclaimerText": "Medically Dependent Disclaimer text"
+    },
+    {
+      "code": "VULNERABLE",
+      "dataType": "textarea",
+      "isDisclaimerRequired": true,
+      "disclaimerText": "Vulnerable Disclaimer text"
+    },
+    {
+      "code": "OTHER",
+      "dataType": "textarea",
+      "isDisclaimerRequired": true,
+      "disclaimerText": "Other Disclaimer text"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "requiredConsents": [],
+  "needsFields": [
+    {
+      "code": "LIFE_SUPPORT",
+      "dataType": "radio-button",
+      "selection": [
+        "Oxygen Concentrator",
+        "Intermittent Peritoneal Dialysis Machine",
+        "Kidney Dialysis Machine",
+        "Chronic Positive Airways Pressure Respirator",
+        "Crigler Najjar Syndrome Phototherapy Equipment",
+        "Ventilator For Life Support",
+        "Other"
+      ]
+    },
+    {
+      "code": "LIFE_SUPPORT_TEXT",
+      "dataType": "textarea"
+    },
+    {
+      "code": "SENSITIVE_LOAD",
+      "dataType": "textarea"
+    }
+  ]
+}
